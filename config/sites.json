@@ -1,1 +1,15 @@
-
+{
+  "baseUrl": "https://abc.com",
+  "authPage": "/login",
+  "testUser": {
+    "email": "test@abc.com",
+    "password": "yourpassword"
+  },
+  "selectors": {
+    "emailField":    "#email",
+    "passwordField": "#password",
+    "submitButton":  "button[type='submit']",
+    "errorMessage":  ".error-message",
+    "dashboardEl":   ".dashboard"
+  }
+}
