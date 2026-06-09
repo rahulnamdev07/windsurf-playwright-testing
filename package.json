@@ -1,0 +1,15 @@
+{
+  "name": "windsurf-playwright-testing",
+  "version": "1.0.0",
+  "description": "Automated testing with Windsurf workflows + Playwright MCP",
+  "scripts": {
+    "test": "playwright test",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "test:headed": "playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {}
+}
